@@ -1,0 +1,2 @@
+-L /home/perthi/github/logmaster/build/x86/lib -lm -ltestlib -lutilities -lcmdline -llogmaster -lreadline -lgtest -lpthread -lX11 -lcom -ltestlib -llogmaster -lexception -lcmdline -lutilities -lreadline
+c++ -std=c++17 -fPIC -std=c++17 -g -o com-unit-tests com-unit-tests.o TestTCP.o TestUDP.o -L /home/perthi/github/logmaster/build/x86/lib -lm -ltestlib -lutilities -lcmdline -llogmaster -lreadline -lgtest -lpthread -lX11 -lcom -ltestlib -llogmaster -lexception -lcmdline -lutilities -lreadline

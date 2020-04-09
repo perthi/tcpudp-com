@@ -1,0 +1,2 @@
+-L /home/perthi/github/logmaster/build/x86/lib -lm -lcom -llogmaster -lutilities -lexception -lreadline -lpthread _flags.txt
+c++ -std=c++17 -fPIC -std=c++17 -g -Weffc++ -Wshadow -Wall -Wextra -Wpedantic -Wno-unknown-pragmas -Wswitch-enum -Wimplicit-fallthrough -Wignored-qualifiers -Werror -o tcp-client tcp-client.o -L /home/perthi/github/logmaster/build/x86/lib -lm -lcom -llogmaster -lutilities -lexception -lreadline -lpthread _flags.txt
